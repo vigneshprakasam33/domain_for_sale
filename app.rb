@@ -4,7 +4,7 @@ require 'rest-client'
 
 class App   < Sinatra::Base
   get '/' do
-    erb :index
+  redirect "index.html"
   end
 
   post '/' do
