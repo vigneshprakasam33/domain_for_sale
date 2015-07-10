@@ -22,11 +22,14 @@ body{
 	text-align: center;
 	margin-top: 12px;
 }
-center{
+center > div{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 60px;
 	color: #A25D5D;
 	margin-top: 10%;
+}
+center > form{
+	max-width: 380px; 
 }
 footer{
 	height: 30px;
