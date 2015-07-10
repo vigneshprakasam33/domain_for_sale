@@ -1,5 +1,3 @@
-# set path to app that will be used to configure unicorn,
-# note the trailing slash in this example
 @dir = "/apps/domain_for_sale/"
 
 worker_processes 2
@@ -9,7 +7,8 @@ timeout 30
 
 # Specify path to socket unicorn listens to,
 # we will use this in our nginx.conf later
-listen "#{@dir}tmp/sockets/unicorn.sock", :backlog => 64
+#listen "#{@dir}tmp/sockets/unicorn.sock", :backlog => 64
+listen '172.31.35.52:4000'
 
 # Set process id path
 pid "#{@dir}tmp/pids/unicorn.pid"

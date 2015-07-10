@@ -1,0 +1,54 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+.navbar{
+	background: repeating-linear-gradient(-55deg, #222,  #222 10px,  #333 10px,  #333 20px);
+}
+body{
+	background-repeat: repeat;
+	background-image: url(../img/halftone.png); 
+}
+.jumbotron{
+	height : calc(100vh - 100px);
+	background-color: transparent
+}
+.container{
+	height: 100%;
+	text-align: center;
+	margin-top: 12px;
+}
+center{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 60px;
+	color: #A25D5D;
+	margin-top: 10%;
+}
+footer{
+	height: 30px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+footer > span{
+	font-size: 15px;
+	line-height: 30px;
+	width: auto;
+	margin : 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
